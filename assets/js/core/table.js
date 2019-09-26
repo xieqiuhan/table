@@ -36,7 +36,7 @@ $(document).ready(function () {
               if(toIndex == 0){
                      return;
               }else if(l > toIndex){
-                     $(".table tr").eq(toIndex ).before($tr);
+                     $(".table tr").eq(toIndex).before($tr);
                      $tr.find("#queue").html(toIndex);
                      changeQueue(toIndex,l);
                      $('.toIndex').val("");  
@@ -49,7 +49,7 @@ $(document).ready(function () {
                      $('.toIndex').val("");  
               }
             
-              console.log(toIndex);
+            //  console.log(toIndex);
             
        });
 
